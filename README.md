@@ -22,7 +22,7 @@ Massively many-core HTTP server on bitsliced GPU
 
 ## HTTP Ingress:
 - HTTP will be used to request data (GET), and update database (PUT/POST)
-- Parse HTTP over Unix socket with R32I ISA.
+- Parse HTTP ~over Unix socket~ from pinned memory with R32I ISA.
 
 ## HTTP Egress:
 - HTTP Responses to data GETs and database updates.
